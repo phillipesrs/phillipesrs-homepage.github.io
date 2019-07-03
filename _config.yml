@@ -6,15 +6,16 @@ url: "https://phillipesrs-homepage.github.io/"
 
 # Delete the lines you don't need
 # about 5 elements are recomended
-github_username:  phillipesrs
-facebook_username: phillipesrs
-twitter_username: phillipesrs
-linkedin_username: phillipesrs
-instagram_username:  phillipesrs
-soundcloud_username:  ihaprendi
-medium_username:  phillipesrs
 blog_url: "/blog"
 email: phillipe@ihaprendi.com
+facebook_username: phillipesrs
+linkedin_username: phillipesrs
+instagram_username:  phillipesrs
+twitter_username: phillipesrs
+medium_username:  phillipesrs
+spotify: phnino 
+#soundcloud_username:  ihaprendi
+#github_username:  phillipesrs
 #public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
 
 
