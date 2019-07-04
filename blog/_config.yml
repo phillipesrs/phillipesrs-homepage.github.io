@@ -1,0 +1,24 @@
+title:              Phillipe Soares Blog
+email:              phillipe@ihaprendi.com
+description:        A Blog by Phillipe Soares
+author:             Phillipe Soares
+baseurl:            "/blog/"
+url:                "https://phillipesrs-blog.github.io"
+
+# Social Profiles
+twitter_username:   phillipesrs
+github_username:    phillipesrs
+facebook_username:  phillipesrs
+linkedin_username:  phillipesrs
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-109908403-10 # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
