@@ -31,6 +31,11 @@ permalink: /
             <h3>{{ site.description }}</h3>
 
                 <ul>
+
+                    {% if site.blog_url %}
+                    <li><a class="fa fa-2x fa-book" href="{{ site.blog_url }}"><span class="description">Blog</span></a></li>
+                    {% endif %}
+
                     {% if site.github_username %}
                     <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
                     {% endif %}
@@ -106,10 +111,6 @@ permalink: /
                     <!--{% if site.blog_url %}
                     <li><a class="fa fa-2x fa-tags" href="{{ site.baseurl }}{{ site.blog_url }}"><span class="description">Blog</span></a></li>
                     {% endif %}-->
-
-                    {% if site.blog_url %}
-                    <li><a class="fa fa-2x fa-book" href="{{ site.blog_url }}"><span class="description">Blog</span></a></li>
-                    {% endif %}
 
                     {% if site.email %}
                     <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
